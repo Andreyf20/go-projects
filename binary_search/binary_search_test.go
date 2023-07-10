@@ -1,4 +1,3 @@
-
 package binary_search 
 
 import "testing"
