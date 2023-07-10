@@ -32,6 +32,11 @@ func Dequeue(q *Queue) int {
 	currentHead := q.Head
 	q.Head = currentHead.Next
 	q.Ln = q.Ln - 1
+
+	if q.Ln == 0 {
+		q.Tail = nil
+	}
+
 	return currentHead.Val
 }
 
