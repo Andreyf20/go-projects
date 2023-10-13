@@ -1,0 +1,11 @@
+go 1.21.0
+
+use (
+	./binary_search
+	./bubble_sort
+	./linear_search
+	./linked_list
+	./maze_solver
+	./queue
+	./two_crystal_balls
+)
