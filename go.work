@@ -7,5 +7,6 @@ use (
 	./linked_list
 	./maze_solver
 	./queue
+	./quick_sort/
 	./two_crystal_balls
 )
